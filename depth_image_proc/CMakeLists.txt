@@ -4,6 +4,7 @@ project(depth_image_proc)
 find_package(catkin REQUIRED)
 catkin_package(LIBRARIES ${PROJECT_NAME})
 
+find_package(cmake_modules REQUIRED)
 find_package(Boost REQUIRED)
 find_package(catkin REQUIRED cv_bridge image_geometry image_transport message_filters nodelet pcl_conversions pcl_ros sensor_msgs stereo_msgs tf)
 find_package(Eigen REQUIRED)
